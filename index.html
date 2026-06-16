@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-Pro Academy Актобе | Курсы программирования и дизайна</title>
+    <meta
+      name="description"
+      content="A-Pro Academy в Актобе: курсы программирования, дизайна, аналитики и AI для детей, подростков и взрослых."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-mark">
+        <img src="assets/academy.png" alt="" />
+      </div>
+      <span>A-Pro Academy</span>
+    </div>
+
+    <header class="site-header" id="top">
+      <nav class="nav">
+        <a class="brand" href="#top" aria-label="A-Pro Academy">
+          <img src="assets/academy.png" alt="A-Pro Academy Bolashaqqa umtyl" />
+          <span>
+            <strong>A-Pro Academy</strong>
+            <small>Bolashaqqa umtyl</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#about">О нас</a>
+          <a href="#partners">Партнеры</a>
+          <a href="#courses">Курсы</a>
+          <a href="#teachers">Преподаватели</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contacts">Контакты</a>
+          <div class="nav-socials" aria-label="Социальные сети">
+            <a
+              class="nav-social"
+              href="https://wa.me/77071023562"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Написать в WhatsApp"
+            >
+              <img src="assets/icon-whatsapp.png" alt="" aria-hidden="true" />
+            </a>
+            <a
+              class="nav-social"
+              href="https://www.instagram.com/a_pro.aqtobe/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Открыть Instagram A-Pro Academy"
+            >
+              <img src="assets/icon-instagram.png" alt="" aria-hidden="true" />
+            </a>
+          </div>
+          <button class="btn btn-small" type="button" data-open-modal>Оставить заявку</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section reveal reveal-hero">
+        <div class="hero-copy">
+          <span class="eyebrow">IT-школа в Актобе</span>
+          <h1>Учитесь программированию, дизайну и AI с практикой на реальных проектах</h1>
+          <p>
+            Академия для детей, подростков и взрослых в Актобе. Обучаем с нуля,
+            помогаем собрать портфолио и уверенно войти в цифровые профессии.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn" type="button" data-open-modal>Получить консультацию</button>
+            <a class="btn btn-ghost" href="#courses">Смотреть курсы</a>
+          </div>
+
+          <div class="stats" aria-label="Показатели академии">
+            <div>
+              <strong>500+</strong>
+              <span>выпускников</span>
+            </div>
+            <div>
+              <strong>11</strong>
+              <span>направлений</span>
+            </div>
+            <div>
+              <strong>5 лет</strong>
+              <span>опыта</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Быстрая заявка">
+          <div class="orbit orbit-two"></div>
+          <img src="assets/academy.png" alt="" />
+          <div class="quick-form">
+            <h2>Записаться на пробный урок</h2>
+            <form class="lead-form quick-lead-form" novalidate>
+              <label>
+                Имя
+                <input name="name" type="text" placeholder="Ваше имя" />
+              </label>
+              <label>
+                Телефон
+                <input name="phone" type="tel" placeholder="+7 ___ ___ __ __" />
+              </label>
+              <label>
+                Курс
+                <select name="course">
+                  <option value="">Выберите курс</option>
+                  <option>Визуальное программирование</option>
+                  <option>Основы программирования</option>
+                  <option>Python</option>
+                  <option>Веб-разработка</option>
+                  <option>Data Analytics</option>
+                  <option>AI-Assisted Development</option>
+                </select>
+              </label>
+              <button class="btn btn-full" type="submit">Отправить</button>
+              <p class="form-note">Можно сразу нажать кнопку — данные заполняются на следующем шаге.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section certificate reveal reveal-certificate" id="about">
+        <div class="certificate-copy">
+          <span class="eyebrow">Результат обучения</span>
+          <h2>Сертификат после защиты проекта</h2>
+          <p>
+            В течение курса студенты создают учебные и командные проекты, получают обратную
+            связь от наставников и защищают финальную работу. В сертификате можно учитывать
+            посещаемость, домашние задания и итоговый проект.
+          </p>
+          <button class="btn" type="button" data-open-modal>Хочу учиться</button>
+        </div>
+        <div class="certificate-visual">
+          <img src="assets/certificate-template.png" alt="Образец сертификата A-Pro Academy" />
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <span class="eyebrow">Почему выбирают нас</span>
+          <h2>Практика, наставники и понятный путь развития</h2>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card">
+            <span>01</span>
+            <h3>Опыт</h3>
+            <p>Команда с опытом обучения школьников, студентов и взрослых с разным уровнем подготовки.</p>
+          </article>
+          <article class="feature-card">
+            <span>02</span>
+            <h3>Качество</h3>
+            <p>Программа строится вокруг практики, современных инструментов и регулярной обратной связи.</p>
+          </article>
+          <article class="feature-card">
+            <span>03</span>
+            <h3>Портфолио</h3>
+            <p>Каждый курс ведет к проектам, которые можно показать родителям, вузу или работодателю.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section partners reveal" id="partners">
+        <div class="section-heading">
+          <span class="eyebrow">Наши партнеры</span>
+          <h2>Сотрудничаем с лидерами образования и технологий</h2>
+        </div>
+
+        <div class="partners-layout">
+          <nav class="partners-rail" aria-label="Список партнеров">
+            <button class="partner-logo active" type="button" data-partner-target="astana-hub">
+              <img src="assets/partner-astana-hub.png" alt="Astana Hub" />
+              <span>Astana Hub</span>
+            </button>
+            <button class="partner-logo" type="button" data-partner-target="atyrau-university">
+              <img src="assets/partner-atyrau-university.png" alt="Атырауский университет имени Халела Досмухамедова" />
+              <span>Атырау университеті</span>
+            </button>
+            <button class="partner-logo" type="button" data-partner-target="fssa">
+              <img src="assets/partner-fssa.jpg" alt="FSSA" />
+              <span>FSSA</span>
+            </button>
+            <button class="partner-logo" type="button" data-partner-target="bilim-innovation">
+              <img src="assets/partner-bilim-innovation.png" alt="Білім-Инновация" />
+              <span>Білім-Инновация</span>
+            </button>
+            <button class="partner-logo" type="button" data-partner-target="apec">
+              <img src="assets/partner-apec.webp" alt="APEC PetroTechnic Higher College" />
+              <span>APEC PetroTechnic</span>
+            </button>
+          </nav>
+
+          <div class="partners-content" tabindex="0" aria-label="Информация о партнерах">
+            <div class="partners-motion-track">
+            <article class="partner-detail" id="partner-astana-hub" data-partner-id="astana-hub">
+              <span class="partner-number">01</span>
+              <div class="partner-detail-logo">
+                <img src="assets/partner-astana-hub.png" alt="" />
+              </div>
+              <h3>Astana Hub</h3>
+              <p>Международный технопарк IT-стартапов и центр технологической экосистемы Казахстана.</p>
+              <a href="https://astanahub.com/" target="_blank" rel="noreferrer">Официальный сайт ↗</a>
+            </article>
+
+            <article class="partner-detail" id="partner-atyrau-university" data-partner-id="atyrau-university">
+              <span class="partner-number">02</span>
+              <div class="partner-detail-logo">
+                <img src="assets/partner-atyrau-university.png" alt="" />
+              </div>
+              <h3>Х. Досмұхамедов атындағы Атырау университеті</h3>
+              <p>Региональный университет, развивающий образование, науку и подготовку специалистов.</p>
+              <a href="https://asu.edu.kz/" target="_blank" rel="noreferrer">Официальный сайт ↗</a>
+            </article>
+
+            <article class="partner-detail" id="partner-fssa" data-partner-id="fssa">
+              <span class="partner-number">03</span>
+              <div class="partner-detail-logo">
+                <img src="assets/partner-fssa.jpg" alt="" />
+              </div>
+              <h3>FSSA</h3>
+              <p>Компания в сфере подбора персонала, карьерного развития и профессионального обучения.</p>
+              <a href="https://fssa.kz/" target="_blank" rel="noreferrer">Официальный сайт ↗</a>
+            </article>
+
+            <article class="partner-detail" id="partner-bilim-innovation" data-partner-id="bilim-innovation">
+              <span class="partner-number">04</span>
+              <div class="partner-detail-logo">
+                <img src="assets/partner-bilim-innovation.png" alt="" />
+              </div>
+              <h3>«Білім-Инновация» халықаралық қоғамдық қоры</h3>
+              <p>Образовательный фонд и сеть лицеев, поддерживающие талантливых школьников.</p>
+              <a href="https://bil.edu.kz/" target="_blank" rel="noreferrer">Официальный сайт ↗</a>
+            </article>
+
+            <article class="partner-detail" id="partner-apec" data-partner-id="apec">
+              <span class="partner-number">05</span>
+              <div class="partner-detail-logo">
+                <img src="assets/partner-apec.webp" alt="" />
+              </div>
+              <h3>APEC PetroTechnic Higher College</h3>
+              <p>Высший колледж, готовящий технических специалистов для нефтегазовой индустрии.</p>
+              <a href="https://apec.edu.kz/" target="_blank" rel="noreferrer">Официальный сайт ↗</a>
+            </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section courses-section reveal" id="courses">
+        <div class="section-heading">
+          <span class="eyebrow">Направления</span>
+          <h2>Курсы для детей и взрослых</h2>
+          <p>Выберите подходящую траекторию: от первых алгоритмов до аналитики данных и AI-разработки.</p>
+        </div>
+
+        <div class="course-tabs" role="tablist" aria-label="Категории курсов">
+          <button class="tab active" type="button" data-filter="all">Все</button>
+          <button class="tab" type="button" data-filter="kids">Для детей</button>
+          <button class="tab" type="button" data-filter="adults">Для взрослых</button>
+        </div>
+
+        <div class="courses-grid">
+          <article class="course-card" data-category="kids">
+            <span class="badge">Для детей</span>
+            <h3>Визуальное программирование</h3>
+            <p>Scratch, логика, первые игры и анимации для уверенного старта.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>18-24 месяца</dd></div>
+              <div><dt>Стоимость</dt><dd>25 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="Визуальное программирование">Оставить заявку</button>
+          </article>
+          <article class="course-card" data-category="kids">
+            <span class="badge">Для детей</span>
+            <h3>Спортивное программирование</h3>
+            <p>Алгоритмы, олимпиады и развитие сильного математического мышления.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>36-60 месяцев</dd></div>
+              <div><dt>Стоимость</dt><dd>30 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="Спортивное программирование">Оставить заявку</button>
+          </article>
+          <article class="course-card" data-category="kids">
+            <span class="badge">Для детей</span>
+            <h3>Основы программирования</h3>
+            <p>Базовые конструкции, алгоритмы, мини-проекты и подготовка к языкам программирования.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>6-8 месяцев</dd></div>
+              <div><dt>Стоимость</dt><dd>30 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="Основы программирования">Оставить заявку</button>
+          </article>
+          <article class="course-card" data-category="kids adults">
+            <span class="badge">Универсальный</span>
+            <h3>Веб-разработка</h3>
+            <p>HTML, CSS, JavaScript, современные интерфейсы и публикация проектов.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>12-18 месяцев</dd></div>
+              <div><dt>Стоимость</dt><dd>от 40 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="Веб-разработка">Оставить заявку</button>
+          </article>
+          <article class="course-card" data-category="adults">
+            <span class="badge">Для взрослых</span>
+            <h3>Основы Python</h3>
+            <p>Синтаксис, автоматизация, API и база для дальнейшего роста в разработке.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>6 месяцев</dd></div>
+              <div><dt>Стоимость</dt><dd>50 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="Основы Python">Оставить заявку</button>
+          </article>
+          <article class="course-card" data-category="adults">
+            <span class="badge">Для взрослых</span>
+            <h3>Data Analytics</h3>
+            <p>Excel, SQL, Python, дашборды и аналитическое мышление для бизнеса.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>6 месяцев</dd></div>
+              <div><dt>Стоимость</dt><dd>80 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="Data Analytics">Оставить заявку</button>
+          </article>
+          <article class="course-card" data-category="adults">
+            <span class="badge">Для взрослых</span>
+            <h3>Machine Learning & GenAI</h3>
+            <p>Модели, данные, прототипирование AI-сервисов и прикладные кейсы.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>6 месяцев</dd></div>
+              <div><dt>Стоимость</dt><dd>65 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="Machine Learning & GenAI">Оставить заявку</button>
+          </article>
+          <article class="course-card" data-category="adults">
+            <span class="badge">Для взрослых</span>
+            <h3>AI-Assisted Development</h3>
+            <p>Разработка с AI-инструментами, промптинг, ускорение рабочих задач и контроль качества.</p>
+            <dl>
+              <div><dt>Длительность</dt><dd>6 месяцев</dd></div>
+              <div><dt>Стоимость</dt><dd>80 000 тг/мес</dd></div>
+            </dl>
+            <button type="button" data-open-modal data-course="AI-Assisted Development">Оставить заявку</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section teachers reveal" id="teachers">
+        <div class="section-heading teachers-heading">
+          <div>
+            <span class="eyebrow">Наставники</span>
+            <h2>Преподаватели из индустрии</h2>
+          </div>
+        </div>
+        <div class="teachers-carousel">
+          <div class="carousel-controls" aria-label="Управление лентой преподавателей">
+            <button class="carousel-btn carousel-btn-prev" type="button" data-teachers-prev aria-label="Предыдущие преподаватели">
+              ←
+            </button>
+            <button class="carousel-btn carousel-btn-next" type="button" data-teachers-next aria-label="Следующие преподаватели">
+              →
+            </button>
+          </div>
+          <div class="teachers-track" tabindex="0" aria-label="Лента преподавателей">
+            <article class="teacher-card">
+              <div class="teacher-photo"><img src="assets/teacher-nurlybek.webp" alt="Аталыков Нурлыбек" /></div>
+              <h3>Аталыков Нурлыбек</h3><p>Основатель A-Pro Group</p>
+            </article>
+            <article class="teacher-card">
+              <div class="teacher-photo"><img src="assets/teacher-margulan.webp" alt="Тухфатов Маргулан" /></div>
+              <h3>Тухфатов Маргулан</h3><p>Ведущий Разработчик NCOC</p>
+            </article>
+            <article class="teacher-card">
+              <div class="teacher-photo"><img src="assets/teacher-alemhan.webp" alt="Алемхан Утепкалиев" /></div>
+              <h3>Алемхан Утепкалиев</h3><p>C#/.NET Разработчик</p>
+            </article>
+            <article class="teacher-card">
+              <div class="teacher-photo"><img src="assets/teacher-medet.webp" alt="Медет Хайдаров" /></div>
+              <h3>Медет Хайдаров</h3><p>Full-Stack разработчик (Node.JS, React)</p>
+            </article>
+            <article class="teacher-card">
+              <div class="teacher-photo"><img src="assets/teacher-altynbek.webp" alt="Алтынбек Қазезов" /></div>
+              <h3>Алтынбек Қазезов</h3><p>PHP Senior Backend-разработчик</p>
+            </article>
+            <article class="teacher-card">
+              <div class="teacher-photo"><img src="assets/teacher-kuralai.webp" alt="Казбекова Куралай" /></div>
+              <h3>Казбекова Куралай</h3><p>Ведущий дата аналитик ТШО</p>
+            </article>
+            <article class="teacher-card">
+              <div class="teacher-photo"><img src="assets/teacher-rysbek.webp" alt="Оразымбетов Рысбек" /></div>
+              <h3>Оразымбетов Рысбек</h3><p>Machine Learning Engineer во Freedom Insurance</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section consultation reveal">
+        <div>
+          <span class="eyebrow">Бесплатная консультация</span>
+          <h2>Поможем выбрать курс под возраст, цель и уровень</h2>
+          <p>Ответим на вопросы, расскажем про расписание и подберем комфортный формат обучения.</p>
+        </div>
+        <button class="btn btn-light" type="button" data-open-modal>Записаться</button>
+      </section>
+
+      <section class="section reviews reveal" id="reviews">
+        <div class="section-heading">
+          <span class="eyebrow">Истории студентов</span>
+          <h2>Отзывы выпускников</h2>
+        </div>
+        <div class="reviews-grid">
+          <article>
+            <p>
+              “Обучение помогло собрать сильную базу и попробовать себя в реальных задачах.
+              После курса я уверенно продолжил развитие во frontend-разработке.”
+            </p>
+            <h3>Асхат</h3>
+            <span>Frontend-разработчик</span>
+          </article>
+          <article>
+            <p>
+              “Мне понравилось, что теория сразу закреплялась практикой. Финальный проект стал
+              первым серьезным кейсом в моем портфолио.”
+            </p>
+            <h3>Дархан</h3>
+            <span>Full-stack разработчик</span>
+          </article>
+          <article>
+            <p>
+              “Курс дал понятную структуру, поддержку преподавателя и мотивацию двигаться дальше
+              в backend-разработке.”
+            </p>
+            <h3>Алтынбек</h3>
+            <span>C#/.NET разработчик</span>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer reveal" id="contacts">
+      <div>
+        <a class="brand brand-footer" href="#top">
+          <img src="assets/academy.png" alt="" />
+          <span>
+            <strong>A-Pro Academy</strong>
+            <small>Bolashaqqa umtyl</small>
+          </span>
+        </a>
+        <p>IT-образование для детей и взрослых в Актобе, Казахстан.</p>
+      </div>
+      <div>
+        <h3>Курсы</h3>
+        <a href="#courses">Для детей</a>
+        <a href="#courses">Для взрослых</a>
+        <a href="#courses">AI и аналитика</a>
+      </div>
+      <div>
+        <h3>Контакты</h3>
+        <a href="mailto:atyrauproacademy@gmail.com">atyrauproacademy@gmail.com</a>
+        <a href="tel:+77071023562">+7 707 102 35 62</a>
+        <a class="contact-social" href="https://wa.me/77071023562" target="_blank" rel="noreferrer">
+          <img src="assets/icon-whatsapp.png" alt="" aria-hidden="true" />
+          <span>Написать в WhatsApp ↗</span>
+        </a>
+        <a class="contact-social" href="https://www.instagram.com/a_pro.aqtobe/" target="_blank" rel="noreferrer">
+          <img src="assets/icon-instagram.png" alt="" aria-hidden="true" />
+          <span>Instagram @a_pro.aqtobe ↗</span>
+        </a>
+        <a
+          href="https://2gis.kz/aktobe/search/%D0%A3%D0%BB.%D0%A3%D1%82%D0%B5%D0%B3%D0%B5%D0%BD%D0%B0%20%D0%A1%D0%B5%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%2C2%2C%20Aktobe/firm/70000001089475131/57.19151%2C50.290369?m=57.191005%2C50.290399%2F18.29"
+          target="_blank"
+          rel="noreferrer"
+        >
+          г. Актобе, ул. Утегена Сеитова, 2 ↗
+        </a>
+      </div>
+    </footer>
+
+    <div class="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Закрыть" data-close-modal>×</button>
+        <h2 id="modal-title">Оставить заявку</h2>
+        <p>Заполните форму, и администратор свяжется с вами в ближайшее время.</p>
+        <form class="lead-form modal-form">
+          <label>
+            Имя
+            <input name="name" type="text" placeholder="Ваше имя" required />
+          </label>
+          <label>
+            Телефон
+            <input name="phone" type="tel" placeholder="+7 ___ ___ __ __" required />
+          </label>
+          <label>
+            Город
+            <input name="region" type="text" value="Актобе" readonly />
+          </label>
+          <label>
+            Курс
+            <select name="course" required>
+              <option value="">Выберите курс</option>
+              <option>Визуальное программирование</option>
+              <option>Спортивное программирование</option>
+              <option>Основы программирования</option>
+              <option>Основы Python</option>
+              <option>Веб-разработка</option>
+              <option>Data Analytics</option>
+              <option>Machine Learning & GenAI</option>
+              <option>AI-Assisted Development</option>
+            </select>
+          </label>
+          <button class="btn btn-full" type="submit">Отправить заявку</button>
+          <p class="success-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
