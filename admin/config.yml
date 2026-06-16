@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: твой-username/твой-репозиторий
+  repo: crowina/apro
   branch: main
 
 media_folder: images
